@@ -29,7 +29,6 @@ enum CapitalTag {}
 typealias State = Named<StateTag>
 typealias Capital = Named<CapitalTag>
 
-
 var lookup2: [State: Capital] = ["Alabama": "Montgomery",
                                  "Alaska":  "Juneau",
                                  "Arizona": "Phoenix"]
